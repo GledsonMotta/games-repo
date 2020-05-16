@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: d4209cf34c0ba094ab16e53ffa7f6a92
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: twist_nr_spritesheet_atack_0
+    21300002: twist_nr_spritesheet_atack_1
+    21300004: twist_nr_spritesheet_atack_2
+    21300006: twist_nr_spritesheet_atack_3
+    21300008: twist_nr_spritesheet_atack_4
+    21300010: twist_nr_spritesheet_atack_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: twist_nr_spritesheet_atack_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 7
+        width: 77
+        height: 73
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: twist_nr_spritesheet_atack_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 7
+        width: 73
+        height: 73
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: twist_nr_spritesheet_atack_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 7
+        width: 71
+        height: 72
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: twist_nr_spritesheet_atack_3
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 3
+        width: 90
+        height: 77
+      alignment: 9
+      pivot: {x: .850000024, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: twist_nr_spritesheet_atack_4
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 7
+        width: 71
+        height: 72
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: twist_nr_spritesheet_atack_5
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 4
+        width: 73
+        height: 76
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

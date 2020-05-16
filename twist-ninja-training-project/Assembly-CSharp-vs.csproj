@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{66498199-4B03-A71A-034C-776C818F5D67}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_4;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Adversit\AdvertisementTest.cs" />
+     <Compile Include="Assets\Scripts\Controller\ActTextController.cs" />
+     <Compile Include="Assets\Scripts\Controller\BackWorldController.cs" />
+     <Compile Include="Assets\Scripts\Controller\BallonController.cs" />
+     <Compile Include="Assets\Scripts\Controller\BallonShuriController.cs" />
+     <Compile Include="Assets\Scripts\Controller\BladeController.cs" />
+     <Compile Include="Assets\Scripts\Controller\ButtonController.cs" />
+     <Compile Include="Assets\Scripts\Controller\CheeseController.cs" />
+     <Compile Include="Assets\Scripts\Controller\DestroyerController.cs" />
+     <Compile Include="Assets\Scripts\Controller\DragonAtkController.cs" />
+     <Compile Include="Assets\Scripts\Controller\DragonController.cs" />
+     <Compile Include="Assets\Scripts\Controller\GameController.cs" />
+     <Compile Include="Assets\Scripts\Controller\GroupCheeseController.cs" />
+     <Compile Include="Assets\Scripts\Controller\MusicController.cs" />
+     <Compile Include="Assets\Scripts\Controller\RoomFaseController.cs" />
+     <Compile Include="Assets\Scripts\Controller\RoomMainController.cs" />
+     <Compile Include="Assets\Scripts\Controller\ScoreController.cs" />
+     <Compile Include="Assets\Scripts\Controller\SpawnerController.cs" />
+     <Compile Include="Assets\Scripts\Interface\ILanguage.cs" />
+     <Compile Include="Assets\Scripts\Interface\ISpawnable.cs" />
+     <Compile Include="Assets\Scripts\Model\LangEngModel.cs" />
+     <Compile Include="Assets\Scripts\Model\LangPtModel.cs" />
+     <Compile Include="Assets\Scripts\Moving\MovimentacaoBack.cs" />
+     <Compile Include="Assets\Scripts\Moving\MovimentacaoBallons.cs" />
+     <Compile Include="Assets\Scripts\Moving\MovimentacaoBamboo.cs" />
+     <Compile Include="Assets\Scripts\Player\DESEncryption.cs" />
+     <Compile Include="Assets\Scripts\Player\IEncryption.cs" />
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Player\SecurePlayerPrefs.cs" />
+     <Compile Include="Assets\Scripts\Static\StaticLevelFactory.cs" />
+     <None Include="Assets\Plugins\Android\unityads\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\unityads\build.xml" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{8DA7DC5F-1238-EE3B-32E3-FAF497EFAAB3}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
