@@ -10,4 +10,4 @@ But you can still take a look at it installing the apk on a android device, or b
 ![Print 2](dist/print_2.jpg)
 ![Print 3](dist/print_3.jpg)
 ![Print 4](dist/print_4.jpg)
-![Print 5](dist/print_4.jpg)
+![Print 5](dist/print_5.jpg)
